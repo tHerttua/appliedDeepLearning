@@ -6,8 +6,8 @@ The topic of choice is Natural Language processing and the project type is a mix
 and "Bring Your Own Data".
 
 The idea for the project comes from my earlier explorative analyses on honeypot logs. A honeypot is
-a system that has been exposed to the malicious users on purpose. There's a blogpost I wrote for OUSPG
-and the link can be found in Sources section (Herttua, 2020).
+a system that has been exposed to the malicious users on purpose. There's a blogpost I wrote for Oulu University Secure Programming Group
+for which the link can be found in the Sources section (Herttua, 2020).
 The goal of the project is to use Cowrie honeypot's log as dataset to train a model to classify 
 shell commands, and label if they're malicious or neutral for supervised learning purposes. 
 A stretch goal is to classify what type of malicious behaviour the command attempts to execute,
