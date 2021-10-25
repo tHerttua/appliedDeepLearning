@@ -7,7 +7,7 @@ and "Bring Your Own Data".
 
 The idea for the project comes from my earlier explorative analyses on honeypot logs. A honeypot is
 a system that has been exposed to the malicious users on purpose. There's a blogpost I wrote for Oulu University Secure Programming Group
-for which the link can be found in the Sources section (Herttua, 2020). Since, I've done other explorative analyses on the topic
+for which the link can be found in the Sources section (Herttua et al, 2020). Since, I've done other explorative analyses on the topic
 such as comparing the differences between geolocations of Tokyo, London and Fremont servers.
 
 The goal of the project is to use Cowrie honeypot's log as dataset to train a model to classify 
@@ -69,5 +69,5 @@ JavaScript and VBScript. (Available: https://arxiv.org/pdf/1805.05603.pdf)
 Hendler D., Kels S., Rubin A. 14.4.2018. Detecting Malicious PowerShell Commands using Deep Neural Networks.
 (Available: https://arxiv.org/pdf/1804.04177.pdf)
 
-Herttua T. 10.2.2020. Honeypots - Easy and Insightful. OUSPG 
+Herttua T., Kettunen J., Jomppanen J., Rytinki S. 10.2.2020. Honeypots - Easy and Insightful. OUSPG 
 (Available: https://medium.com/ouspg/honeypots-easy-and-insightful-9d98d2be01c0)
