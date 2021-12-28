@@ -1,0 +1,8 @@
+2021-05-01 07:50:27.269671+00:00 -|::|- /ip cloud print
+2021-05-01 07:50:38.068047+00:00 -|::|- ifconfig
+2021-05-01 07:50:38.530797+00:00 -|::|- uname -a
+2021-05-01 07:50:39.093531+00:00 -|::|- cat /proc/cpuinfo
+2021-05-01 07:50:39.565994+00:00 -|::|- ps | grep '[Mm]iner'
+2021-05-01 07:50:40.129447+00:00 -|::|- ps -ef | grep '[Mm]iner'
+2021-05-01 07:50:40.738612+00:00 -|::|- ls -la /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*
+2021-05-01 07:50:41.204082+00:00 -|::|- echo Hi | cat -n
